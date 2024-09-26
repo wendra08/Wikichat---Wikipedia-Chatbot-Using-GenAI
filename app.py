@@ -29,7 +29,7 @@ if "apikey" not in st.session_state:
     st.session_state["apikey"] = ""
 
 if "store" not in st.session_state:
-    st.session_state["store"] = ""
+    st.session_state["store"] = {}
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
