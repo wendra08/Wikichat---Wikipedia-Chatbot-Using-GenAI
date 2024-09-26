@@ -1,6 +1,6 @@
 streamlit
 langchain
-langchain-community
-langchain-google-genai
-langchain-core
-faiss-cpu
+langchain_community
+langchain_google_genai
+langchain_core
+faiss_cpu
